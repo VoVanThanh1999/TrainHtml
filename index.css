@@ -369,12 +369,10 @@ body{
 .page-review{
 	float: left;
 	height: 600px;
-	background: blue;
 }
 .page-review .review{
 	width: 100%;
 	height: 100%;
-	background: red;
 }
 .page-review .review .text{
 	width: 55%;
@@ -392,24 +390,137 @@ body{
 .page-review .review .content .row{
 	width: 100%;
 	height: 100%;
-	background: yellow;
 }
 .page-review .review .content .row .item{
 	width: 100%;
 	height: 100%;
-	background: pink;
 }
 .page-review .review .content .row .item .top{
 	width: 100%;
 	height: 50%;
-	background: blue;
 }
 .page-review .review .content .row .item .top .left{
+	float: left;
 	position: relative;
 	top: 20%;
 	left: 5%;	
 	width: 8%;
 	height: 40%;
 	border-radius: 50%;
-	background: green;
+}
+.page-review .review .content .row .item .top .left img{
+	border-radius: 50%;
+}
+.page-review .review .content .row .item .top .right{
+	padding-top: 3%;
+	position: relative;
+	left: 13%;
+	top: 0;
+	width: 78%;
+	float: left;
+}
+.page-review .review .content .row .item .top .right p{
+	font-size: 15px;
+}
+.page-review .review .content .row .item .bot{
+	margin-left: 20%;
+	width: 70%;
+	height: 50%;
+	padding-top: 15px;
+}
+.page-review .review .content .row .item .bot p{
+	font-size: 20px;
+}
+.page-laternews{
+	float: left;
+	height: 880px;
+}
+.page-laternews .laternews{
+	width: 100%;
+	height: 100%;
+}
+.page-laternews .laternews .text{
+	width: 55%;
+	height: 12%;
+	position: relative;
+	left: 23%;
+	top: 9%;
+}
+.page-laternews .laternews  .content{
+	margin-top: 10%;
+	width: 100%;
+	height: 550px;
+}
+.page-laternews .laternews  .content .row{
+	position: relative;
+	margin:0 auto;
+	width: 100%;
+	height: 100%;
+}
+.page-laternews .laternews  .content .row .item{
+	width: 100%;
+	height: 100%;
+	border-radius: 3%;
+}
+.page-laternews .laternews  .content .row .item .image{
+	width: 100%;
+	height: 60%;
+	border-radius: 3%;
+}
+.page-laternews .laternews  .content .row .item .image img{
+	border-radius: 3%;
+}
+.page-laternews .laternews  .content .row .item .body{
+	width: 100%;
+	height: 40%;
+}
+.page-laternews .laternews  .content .row .item  .body .btn{
+	border-radius: 0px;
+	height: 25px;
+	width: 75px;
+	 margin-top: 30px;
+}
+.page-laternews .laternews  .content .row .item  .body .btn p{
+	margin-top: -13px;
+	  
+}
+.page-laternews .laternews  .content .row .item  .body p{
+	  padding-top: 5px;
+}
+.page-footer{
+	height: auto;
+	width: auto;
+	float: left;
+	background: #04091e;
+}
+.page-footer .footer{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.page-footer .footer .row{
+	margin:0 auto;
+	width: 100%;
+	height: 390px;
+}
+.page-footer .footer .row .item{
+	position:relative;
+	top: 25%;
+	width: 100%;
+	height: 60%;
+}
+.page-footer .footer .row .item p{
+	font-size: 15px;
+}
+.page-footer .footer .row .item input{
+	height: 40px;
+}
+.page-footer .footer .row .item .btn{
+	position: relative;
+	left: -10.3%;
+	margin-top: -1%;
+	height: 40px;
+	width: 40px;
+	background: #03f0fc;
+	border-radius: 0;
 }
