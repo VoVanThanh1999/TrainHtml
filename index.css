@@ -1,0 +1,415 @@
+body{
+	margin-left: 0px;
+
+}
+#header{
+	float: left;
+
+	height: 75px;
+	background:#001157;
+	position: fixed;
+	z-index: 2;
+	margin-top: -1%;
+}
+#header .logo{
+	float: left;
+	height: 30px;
+	width: 5%;
+	margin-top: 25px;
+}
+#header .menu{
+	float: left;
+	height: 100%;
+	width: 60%;
+	margin-left:380px;
+	color: white;
+}
+#header .menu a{
+	padding-top: 25px;
+	color: white;
+	font-size: 13px;
+	margin-left: 10px;
+}
+#header .menu  .nextpage{
+	margin-top: 13px;
+	width: 120px;
+	height: 30px;
+	background: green;
+}
+#header .menu  .nextpage p{
+	margin-top: 5px;
+	font-size: 13px;
+}
+#page-selector{
+	position: relative;
+	width: 100%;
+	height: auto;
+}	
+#page-selector{
+	position: relative;
+	width: auto;
+	height: auto;
+}
+#page-selector .selector{
+	position: relative;
+	height: 700px;
+	background-image: url(Hinhanh/backgroundbody.png);
+}
+#page-selector .selector .text{
+	float: left;
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	width: 55%;
+	height: 20%;
+}
+#page-selector .selector .image{
+	z-index: 1;
+	position: relative;
+	margin-left: 13%;
+	top: 60%;
+}
+#page-body{
+	position: relative;
+	float: left;
+	height: 892px;
+	background: white;
+}
+#page-body .text{
+	float: left;
+	width: 55%;
+	height: 10%;
+	position: absolute;
+	left: 23%;
+	top: 40%;
+}
+#page-body  .content{
+	position: relative;
+	top: 60%;
+	width: 100%;
+	height: 32%;
+	
+}
+#page-body  .content .row{
+	width: 100%;
+	height: 100%;
+}
+#page-body  .content .row .item{
+	margin-top: 5%;
+	border-radius: 3%;
+	height: 90%;
+	background: #f0f0f0;
+
+}
+#page-body  .content .row .item i{
+	margin-left: 47%;
+	font-size: 30px;
+}
+#powerful{
+	float: left;
+	height: 707px;
+	background: #ededed;
+}
+#powerful .text{
+	float: left;
+	width: 55%;
+	height: 12%;
+	position: relative;
+	left: 23%;
+	top: 10%;
+}
+#powerful  .content{
+	height: 100%;
+}
+#powerful .chart{
+	position: relative;
+	float:left;
+	top: 28%;
+	width: 100%;
+	height: 320px;
+}
+#powerful .chart .row{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+#powerful .chart .row .left{
+	width: 100%;
+	height: 100%;
+}
+#powerful .chart .row .left .title{
+	width: 70%;
+}
+#powerful .chart .row .left  .button{
+	height: 44px;
+	width: 33%;
+	border-radius: 0;
+	font-weight: bold;
+}
+#powerful .chart .row .right{
+	width: 100%;
+	height: 100%;
+}
+#powerful .chart .row .right img{
+	margin-top: -15px;
+}
+.page-features{
+	width: 100%;
+	float: left;
+}
+.page-features .features{
+	position: relative;
+	height: 800px;
+	background: white;
+}
+.page-features .features .text{
+	float: left;
+	width: 55%;
+	height: 12%;
+	position: absolute;
+	left: 23%;
+	top: 10%;
+}
+.page-features .features .content{
+	position: relative;
+	top: 30%;
+	width: 100%;
+	height: 480px;
+}
+.page-features .features .content .row{
+	position: 
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.page-features .features .content .row .item{
+	margin-top: 40px;
+	width: 100%;
+	height: 130px;
+}
+.page-features .features .content .row .item .left{
+	width: 10%;
+	float: left;
+}
+.page-features .features .content .row .item .right{
+	width: 90%;
+	height: 100%;	
+	float: left;
+	font-size: 14px;
+}
+.page-overview{
+	position: relative;
+	float: left;
+	margin:0 auto;
+	width: 100%;
+	height: auto;
+	background: #3898ff;
+}
+.page-overview .impressed{
+	width: 100;
+	height: 390px;
+}
+.page-overview .impressed .text{
+	float: left;
+	width: 55%;
+	height: 12%;
+	position: absolute;
+	left: 23%;
+	top: 8%;
+}
+.page-overview .impressed a{
+	position: relative;
+	top: 71%;
+	left: 38%;
+	width: 225px;
+	height: 45px;
+	background: #91ff00;
+}
+.page-overview .impressed a:hover{
+	background: none;
+	border: 1px solid white;
+}
+.page-overview .watch{
+	width: 100%;
+	height: 960px;
+	background: white;
+}
+.page-overview .watch .row{
+	width: 100%;
+	height: 50%;
+	margin: 0 auto;
+}
+.page-overview .watch .text {
+	width: 100%;
+	height: 100%;
+}
+.page-overview .watch .text  .title{
+	float: left;
+	width: 60%;
+	height: 50%;
+}
+.page-overview .watch .text  .body{
+	width: 100%;
+	height: 50%;
+	float: left;
+	font-size: 16px;
+}
+.page-overview .watch .video {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.page-overview .watch .video iframe{
+	margin: 0 auto;
+	width: 104.6%;
+	height: 100%;
+	margin-left: -2.3%;	
+}
+.page-overview .watch .image{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.page-overview .watch .image img{
+	width: 100%;
+	height: 100%;
+}
+.page-overview .watch .text-B{
+	width: 100%;
+	height: 100%;
+}
+.page-price{
+	float: left;
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.page-price .price{
+	width: 100%;
+	height: 900px;
+}
+.page-price .price .text{
+	width: 55%;
+	height: 12%;
+	position: relative;
+	left: 23%;
+	top: 9%;
+}
+.page-price .price .content{
+	position: relative;
+	top: 15%;
+	height: 510px;
+}
+.page-price .price .content .row{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+.page-price .price .content .row .item{
+	width: 95%;
+	height: 100%;
+	position: relative;
+	border: 0.7px solid #cccccc;
+}
+.page-price .price .content .row .item .header{
+	border-bottom: 0.7px solid #cccccc;
+	background: #e0e0e0;
+	float: left;
+	width: 100%;
+	height: 15%;
+	padding-top: 25px;
+}
+.page-price .price .content .row .item .body{
+	float: left;
+	width: 100%;
+	height: 85%;
+	font-size: 14px;
+	text-align: center;
+}
+.page-price .price .content .row .item .footer{
+	position: absolute;
+	top: 55%;
+	left: 9%;
+	width: 82%;
+	height: 39%;
+	background: #e0e0e0;
+}
+.page-price .price .content .row .item:hover .footer{
+	background: #0fb7ff;
+}
+.page-price .price .content .row .item:hover a{
+	background: green;
+}
+.page-price .price .content .row .item .footer .left{
+	float: left;
+	width: 60%;
+	height: 50%;
+}
+.page-price .price .content .row .item .footer .right{
+	margin-left: 10px;
+	padding-top: 5px;
+	float: left;
+	width: 15%;
+	height: 50%;
+	font-size: 13px;
+}
+.page-price .price .content .row .item .footer p{
+	padding-top: 50px;
+}
+.page-price .price .content .row .item .footer a{
+	float: left;
+	position: relative;
+	margin-top: 20px;
+	left: 20%;
+	width: 	160px;
+	height: 42px;
+}
+.page-review{
+	float: left;
+	height: 600px;
+	background: blue;
+}
+.page-review .review{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+.page-review .review .text{
+	width: 55%;
+	height: 12%;
+	position: relative;
+	left: 23%;
+	top: 9%;
+}
+.page-review .review .content{
+	position: relative;
+	top: 32%;
+	width: 100%;
+	height: 32%;
+}
+.page-review .review .content .row{
+	width: 100%;
+	height: 100%;
+	background: yellow;
+}
+.page-review .review .content .row .item{
+	width: 100%;
+	height: 100%;
+	background: pink;
+}
+.page-review .review .content .row .item .top{
+	width: 100%;
+	height: 50%;
+	background: blue;
+}
+.page-review .review .content .row .item .top .left{
+	position: relative;
+	top: 20%;
+	left: 5%;	
+	width: 8%;
+	height: 40%;
+	border-radius: 50%;
+	background: green;
+}
