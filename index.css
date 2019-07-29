@@ -97,13 +97,21 @@ body{
 #page-body  .content .row .item{
 	margin-top: 5%;
 	border-radius: 3%;
-	height: 90%;
+	height: 280px;	
 	background: #f0f0f0;
-
+	transition: 1s;
+	overflow: auto;
 }
+
 #page-body  .content .row .item i{
 	margin-left: 47%;
 	font-size: 30px;
+}
+#page-body  .content .row .item:hover{
+
+	  background-color: coral;
+	  transform: scale(1.1);
+	  color: white;
 }
 #powerful{
 	float: left;
@@ -198,6 +206,14 @@ body{
 	float: left;
 	font-size: 14px;
 }
+.page-features .features .content .row .item:hover{
+	transition: 0.5s;
+}
+.page-features .features .content .row .item:hover .left{
+	transition: 1.5s;
+	margin-left: 40%;
+	transform: rotate(360deg);
+}
 .page-overview{
 	position: relative;
 	float: left;
@@ -274,8 +290,12 @@ body{
 .page-overview .watch .image img{
 	width: 100%;
 	height: 100%;
+	margin-left: -16px;
 }
+
 .page-overview .watch .text-B{
+	position: relative;
+	left: -2.5%;
 	width: 100%;
 	height: 100%;
 }
@@ -470,6 +490,30 @@ body{
 .page-laternews .laternews  .content .row .item .image img{
 	border-radius: 3%;
 }
+.page-laternews .laternews  .content .row .item .image .hover{
+	position: relative;
+	margin-top: -67%;
+	border-radius: 3%;
+	width: 100%;
+	height: 107%;
+	opacity: 0;
+	background: blue;
+}
+.page-laternews .laternews  .content .row .item .image .hover-text{
+	
+	margin-top: -40%;
+	opacity: 0;
+
+}
+.page-laternews .laternews  .content .row .item:hover .hover{
+	
+	opacity: 0.4;
+	transition: 0.4s;
+}
+.page-laternews .laternews  .content .row .item:hover .hover-text{
+	opacity: 1;
+	transition: 1s;
+}
 .page-laternews .laternews  .content .row .item .body{
 	width: 100%;
 	height: 40%;
@@ -523,4 +567,268 @@ body{
 	width: 40px;
 	background: #03f0fc;
 	border-radius: 0;
+}
+.page-footer .footer .row .item .icon{
+	width: 90%;
+	height: 40px;
+	color: white;
+}
+.page-footer .footer .row .item .icon i{
+	margin-right: 5%;
+}
+@media screen and (max-width: 1140px){
+
+	#page-selector .selector .image{
+		margin-left: 3%;
+	}	
+	#powerful .chart .row .left  .button{
+		width: 44%;
+	}
+	.page-price .price .content .row .item .footer .button{
+		margin-left: -20px;
+	}
+
+	.page-laternews{
+			height: auto;
+	}
+	.page-laternews .text{
+		margin-top: 3%;
+	}
+}
+@media screen and (max-width: 990px){
+	
+	#powerful .chart .row .right img{
+		height: 80%;
+		width: 120%;
+			
+	}
+	#powerful .chart .row .left  .button{
+		width: 56%;
+	}
+	.page-overview .impressed a{
+		margin-top: 30px;
+		margin-left: -20px;
+	}
+	.page-price{
+		float: left;
+		position: relative;
+		width: 100%;
+		height: auto;
+	}
+	.page-price .price .content{	
+		width: 105%;
+		height: 60%;
+	}
+	.page-price .price .content .row .item .footer a{
+		width: 100%;
+		margin-left: 14%;
+	}
+	.page-laternews .laternews  .content .row .item{
+		height: 330px;
+	}
+	.page-laternews .laternews  .content .row .item .hover-text{
+		margin-left: -13%;
+	}
+	
+}
+@media screen and (max-width: 767px){
+	#page-selector .selector .image img{
+		margin-top: 5%;
+		margin-left: -2%;
+	}
+	#page-body{
+		position: relative;
+		height: 1300px;
+	}
+	#page-body .text{
+		position: absolute;
+		top: 14%;
+	}
+	#page-body .content{
+		margin:0 auto;
+		position: relative;
+		left: 2%;
+		top: 26%;
+	}
+	#powerful{
+
+		height: 1200px;
+	}
+	#powerful .text{
+		margin-top: -10%;
+	}
+	#powerful .chart .row .left{
+		margin-top: -12%;
+	}
+	#powerful .chart .row .right{
+		width: 100%;
+		height: 100%;
+	}
+	#powerful .chart .row .right img{
+		width: 100%;
+		height: 100%;
+	}
+	.page-features{
+		height: 1400px;
+
+	}
+	.page-overview{
+		height: 2100px;	
+		background: white;
+		
+	}
+	.page-overview .impressed{
+		width: 100%;
+		background: blue;
+	}
+	.page-overview .impressed .text{
+		margin-top: -15%;
+	}
+	.page-overview .impressed .btn{
+		margin:0 auto;
+		margin-top: 2%;
+		margin-left: -2%;
+	}
+	.page-overview .row{
+		
+		margin:0 auto;
+	}
+	.page-overview   .video{
+		margin-top: -10%;
+		width: 100%;
+		height: 100%;
+	}
+	.page-overview  .video iframe{
+		height: 200px;
+	}
+	.page-overview .image{
+		margin-top: 54.2%;
+	}
+	.page-overview .image img{
+		width: 200px;
+	}
+	.page-overview .text-B{
+		
+		margin-left: 2%;
+		width: 100%;
+	}
+	.page-price{
+		height: 1750px;
+	}
+	.page-price .price{
+		position: relative;
+		height: 1400px;
+		margin: 0 auto;
+	}
+	.page-price .price .col-md-4{
+		margin-top: 20px;
+		height: 400px;
+	}
+
+	.page-price .price .content .row .item .footer{
+		margin-top: 5%;
+		width: 53%;
+		height: 35%;
+		margin-left: 15%;
+	}
+	.page-price .price .content .row .item .footer .left{
+		margin-top: -18%;
+	}
+	.page-price .price .content .row .item .footer .right{
+		margin-top: -18%;
+	}
+	.page-price .price .content .row .item .footer .btn{
+		margin-top: 15%;
+		margin-left: 10%;
+	}
+	.page-review{
+		height: 100%;
+	}
+	.page-laternews{
+		height: 1500px;
+	}
+	.page-laternews .laternews .text{ 
+		position: relative;
+		top:2%;
+	}
+	.page-laternews .laternews  .content{
+		margin-top: 20%;
+	}
+	.page-laternews .laternews  .content .row .item{
+		margin-top: 5%;
+		height: 503px;
+		background: white;s
+	}
+	.page-footer{
+
+	}
+	.page-footer .footer .row .item .btn{
+		margin-top: -30%;
+   		 margin-left: 92%;
+	}
+	.page-footer .footer .row .item p{
+		
+	}
+
+}
+@media screen and (max-width: 660px){
+	.page-overview .impressed .btn{
+		margin-top: 7%;
+		margin-left: -5%;
+	}
+	.page-price{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 575px){
+	#page-selector{
+		width:0%;
+	}
+	#page-selector .selector .image img{
+		margin-top: 20%;
+		margin-left: 0%;
+	}
+	#page-body{
+		width: 70%;
+	}
+	#page-body  .content{
+		margin:0 auto;
+		height: auto;
+		width: 92%;
+	}
+	#powerful .chart .row .right{
+		margin-top: 10%;
+	}
+	.page-overview .impressed{
+		width: 100;
+		height: 450px;
+	}
+	.page-overview .impressed .text{
+		margin-top:-27%;	
+	}
+	.page-overview .impressed .btn{
+		margin-left: -10%;
+	}
+	.page-price{
+		width: 93%;	
+	}
+	.page-price .price .content{
+		width: 100%;	
+	}
+	.page-price .price .content .row .item{
+		margin-left: 2%;
+	}
+	.page-footer .footer .row .item .btn{
+		margin-top: -35%;
+	}
+}
+@media screen and (max-width: 410px){
+	.page-overview .impressed{
+		height: 500px;
+		background: red;
+	}
+	.page-overview .impressed a{
+		margin-top: 20%;
+		margin-left: -14%;
+	}
 }
