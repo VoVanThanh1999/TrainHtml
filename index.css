@@ -102,7 +102,19 @@ body{
 	transition: 1s;
 	overflow: auto;
 }
+#page-body  .content .row .item p{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+#page-body  .content .row .item p:hover{
+	overflow: visible;
+	
 
+}
 #page-body  .content .row .item i{
 	margin-left: 47%;
 	font-size: 30px;
